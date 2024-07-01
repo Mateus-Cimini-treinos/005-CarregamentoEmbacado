@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "ubuntu";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.fundo {
+    background: url("http://pm1.narvii.com/7620/58f93f70809f2f03f027190aff8949ffddb1970dr1-720-684v2_uhq.jpg")
+    no-repeat center center / cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.texto-carregamento{
+    font-size: 50px;
+    color: rgb(161, 236, 207);
+}
